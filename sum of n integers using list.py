@@ -1,6 +1,13 @@
-"""sum of n integers using list"""
-l = []
-j = int(input("enter a number"))
-for i in range(j+1):
-    l.append(i)
-print(sum(l))
+# how to get time in python program
+import time
+
+
+def myFunc():
+    start_time = time.time()
+    s = 0
+    for i in range(1, n+1):
+        s = s + i
+    end_time = time.time()
+    return s, end_time-start_time
+    n = 5
+    print(myFunc())
